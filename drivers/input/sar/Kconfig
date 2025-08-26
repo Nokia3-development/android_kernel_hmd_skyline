@@ -1,0 +1,13 @@
+# Added by huofudong for TCT-987 on 20240115 begin
+config INPUT_SAR
+    tristate "Support for sar"
+    help
+      Say Y here if you have sar driver.
+# Added by huofudong for TCT-987 on 20240115 end
+
+config SAR_SX933X
+    tristate "Support for sx933x sar"
+    help
+      Say Y here if you have sar driver.
+
+

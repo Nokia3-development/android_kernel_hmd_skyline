@@ -1,0 +1,1 @@
+obj-$(CONFIG_SIM_TRAY_DETECT) := sim_tray_detect.o

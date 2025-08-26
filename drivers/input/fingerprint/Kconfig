@@ -1,0 +1,9 @@
+menu "Device Drivers"
+
+config INPUT_FP
+	tristate "input fp"
+    default n
+
+source "drivers/input/fingerprint/silead/Kconfig"
+
+endmenu

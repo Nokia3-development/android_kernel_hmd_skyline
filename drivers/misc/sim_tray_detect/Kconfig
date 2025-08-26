@@ -1,0 +1,6 @@
+config SIM_TRAY_DETECT
+	tristate "check sim tray detect status"
+	help
+	  this will create a node to show sim tray status.
+
+	  If unsure, say N.

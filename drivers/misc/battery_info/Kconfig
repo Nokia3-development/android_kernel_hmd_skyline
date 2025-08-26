@@ -1,0 +1,11 @@
+#
+# for battery sn validate
+#
+
+config BATTERY_INFO
+	tristate "check battery info status"
+	help
+	  this will create a node to show battery info status.
+
+	  If unsure, say N.
+

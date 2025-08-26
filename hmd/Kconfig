@@ -1,0 +1,17 @@
+#
+# Generate for samsung config
+#
+
+config ARCH_TOMCAT
+	bool "Enable Support for Qualcomm Technologies, Inc. PARROT"
+	depends on ARCH_QCOM
+	help
+	  This enables support for the Qualcomm Technologies, Inc.'s
+	  DIWALI chipset. If you do not wish to build a kernel that
+	  runs on this chipset or if you are unsure, say 'N' here.
+
+config CUSTOM_FACTORY_BUILD
+	bool "Enable custom factory build"
+
+config CUSTOM_D85_BUILD
+	bool "Enable custom D85 build"

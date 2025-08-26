@@ -23,7 +23,7 @@ source "drivers/soc/versatile/Kconfig"
 source "drivers/soc/xilinx/Kconfig"
 source "drivers/soc/zte/Kconfig"
 source "drivers/soc/kendryte/Kconfig"
-# add by hh@cc.com for HMD driver begin
+# add by haoh@ll.com for  driver begin
 source "drivers/soc/hmd/Kconfig"
-# add by hh@cc.com for HMD driver end
+# add by haoh@ll.com for driver end
 endmenu

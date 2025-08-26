@@ -29,6 +29,6 @@ obj-$(CONFIG_PLAT_VERSATILE)	+= versatile/
 obj-y				+= xilinx/
 obj-$(CONFIG_ARCH_ZX)		+= zte/
 obj-$(CONFIG_SOC_KENDRYTE)	+= kendryte/
-#add by haoh@l.com for HMD drvier begin
+#add by hh@ll.com for drvier begin
 obj-y			  += hmd/
-#add by haoh@ll.com for HMD drvier end
+#add by hh@ll.com for drvier end
